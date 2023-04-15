@@ -6,12 +6,7 @@
   Section: IAB 6068 / ji woo lee
   This is the styles.css page for my portfolio of web development
   work.
-  It is used by all pages in my portfolio to give the site a
-  consistent
-  look and feel.
 */
-
-
 
 /*
   Remember: This body ruleset is to get you started, but does not count
@@ -24,3 +19,10 @@ body {
   margin-right: auto;
   width: 80%;
 }
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
