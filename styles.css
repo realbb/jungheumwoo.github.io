@@ -1,0 +1,26 @@
+/*
+  *** TODO: fill in your header ***
+  /*
+  Name: jung heum woo
+  Date: April 15, 2023
+  Section: IAB 6068 / ji woo lee
+  This is the styles.css page for my portfolio of web development
+  work.
+  It is used by all pages in my portfolio to give the site a
+  consistent
+  look and feel.
+*/
+
+
+
+/*
+  Remember: This body ruleset is to get you started, but does not count
+  towards the CSP requirements!
+*/
+body {
+  background-color: #f5f5dc;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
