@@ -8,21 +8,29 @@
   work.
 */
 
-/*
-  Remember: This body ruleset is to get you started, but does not count
-  towards the CSP requirements!
-*/
 body {
   background-color: #f5f5dc;
   font-family: "Helvetica", sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  margin-top: 0;
+}
+
+h1, h2, h3 {
+  text-align: center;
 }
 
 h1 {
   font-family: Georgia, serif;
   font-weight: bold;
   font-style: italic;
+  text-shadow: 2px 2px 2px gray;
 }
 
+header {
+  width: 100%;
+  background-color: darksalmon;
+  display: flex;
+  justify-content: space-evenly;
+}
