@@ -34,3 +34,17 @@ header {
   display: flex;
   justify-content: space-evenly;
 }
+
+.food-box {
+  display: grid;
+}
+
+.ingredients{
+  column-count: 2;
+}
+
+.food-img .my-feeling-img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
