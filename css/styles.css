@@ -1,12 +1,12 @@
 /*
-  *** TODO: fill in your header ***
-  /*
   Name: jung heum woo
   Date: April 15, 2023
   Section: IAB 6068 / ji woo lee
   This is the styles.css page for my portfolio of web development
   work.
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 body {
   background-color: #f5f5dc;
@@ -17,8 +17,9 @@ body {
   margin-top: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1 {
@@ -35,16 +36,20 @@ header {
   justify-content: space-evenly;
 }
 
-.food-box {
+.food-box, .my-introduce{
   display: grid;
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+  margin-bottom: 30px;
 }
 
-.ingredients{
+.ingredients {
   column-count: 2;
 }
 
-.food-img .my-feeling-img {
-  width: 200px;
-  height: 200px;
+.food-img , .my-feeling-img{
+  width: 350px;
+  height: 350px;
   margin: auto;
 }
