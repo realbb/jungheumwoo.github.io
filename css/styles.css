@@ -3,7 +3,7 @@
   Date: April 15, 2023
   Section: IAB 6068 / ji woo lee
   This is the styles.css for my portfolio of web development
-  work.(cooking.html & about.html)
+  work.(cooking.html, about.html and index.html.)
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
@@ -17,7 +17,10 @@ body {
   margin-top: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -36,7 +39,9 @@ header {
   justify-content: space-evenly;
 }
 
-.food-box, .my-introduce{
+.food-box,
+.my-introduce,
+.todo {
   display: grid;
   background-color: #EEEEEE;
   border-radius: 20px;
@@ -48,8 +53,63 @@ header {
   column-count: 2;
 }
 
-.food-img , .my-feeling-img{
+.food-img,
+.my-feeling-img {
   width: 350px;
   height: 350px;
   margin: auto;
+}
+
+
+.todo {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.addBtn {
+  margin-left: auto;
+}
+
+.didList {
+  text-decoration: line-through;
+}
+
+.list-container button {
+  background-color: transparent;
+}
+
+#date-add,
+#date-delete,
+#date-setting-container {
+  display: flex;
+  justify-content: right;
+}
+
+#date-setting-container {
+  flex-direction: column;
+}
+
+/* date-setting에 margin 주기 */
+.date-setting {
+  margin: 15px;
+}
+
+/* list-container에 들어간 버튼 margin */
+.didBtn,
+.removeBtn {
+  margin: 5px;
+}
+
+/* 리스트 스타일 none */
+li {
+  list-style: none;
 }
