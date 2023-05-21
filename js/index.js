@@ -36,7 +36,6 @@
    /**
     * list 관련 함수
     */
-
    // list-container 추가 함수
    function addList() {
       const input = this.nextElementSibling;                         // id("inputText")
