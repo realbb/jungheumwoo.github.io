@@ -12,7 +12,6 @@
  * TODO List는 todo 생성, 삭제와 관련된 함수들과
  * 그 안의 list의 생성, 삭제와 관련된 함수들로 나누었음
  */
-
 "use strict";
 (function () {
    window.addEventListener("load", init); // 페이지 load 되었을 때 init함수 실행
@@ -87,7 +86,6 @@
    /**
     * todo 생성, 삭제 관련 함수
     */
-
    // 새로운 날의 to do list 추가 함수
    function addTODO() {
       let dateValue = id("date").value;
