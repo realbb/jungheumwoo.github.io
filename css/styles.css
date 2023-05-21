@@ -107,8 +107,8 @@ header {
 }
 
 /* list-container에 들어간 버튼 margin */
-.didBtn,
-.removeBtn {
+.did-btn,
+.remove-btn {
   margin: 5px;
 }
 

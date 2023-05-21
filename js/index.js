@@ -22,9 +22,9 @@
       qs(".addBtn").addEventListener("click", addList);
       // 예시 리스트는 이벤트 설정 안되어있으니 여기서 설정해준다.
       // 예시로 적힌 Make TODO List의 Did 버튼 클릭 이벤트
-      qs(".didBtn").addEventListener("click", e => clickDid(e));
+      qs(".did-btn").addEventListener("click", e => clickDid(e));
       // 예시로 적힌 Make TODO List의 Remove 버튼 클릭 이벤트
-      qs(".removeBtn").addEventListener("click", e => clickRemove(e));
+      qs(".remove-btn").addEventListener("click", e => clickRemove(e));
       id("add-date").addEventListener("click", addTODO);
       id("delete-date").addEventListener("click", deleteList);
 
@@ -53,13 +53,13 @@
 
          const didBtn = document.createElement("button");            // didBtn 생성
          didBtn.innerHTML = "Did";
-         didBtn.classList.add("didBtn");
+         didBtn.classList.add("did-btn");
          didBtn.addEventListener("click", e => clickDid(e));
          newli.appendChild(didBtn);
 
          const removeBtn = document.createElement("button");         // removeBtn 생성
          removeBtn.innerHTML = "Remove";
-         removeBtn.classList.add("removeBtn");
+         removeBtn.classList.add("remove-btn");
          removeBtn.addEventListener("click", e => clickRemove(e));
          newli.appendChild(removeBtn);
 
